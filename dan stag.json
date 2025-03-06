@@ -105,18 +105,18 @@
         "image": "/build/img/icons/outsider/drunk.webp"
     },
     {
-        "id": "empath",
-        "name": "Empath",
-        "edition": "tb",
+        "id": "shrew",
+        "name": "Shrew",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 36,
-        "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
+        "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the shrew.",
         "otherNight": 53,
         "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
         "reminders": [],
         "setup": false,
         "ability": "Each night, you learn how many of your 2 alive neighbors are evil.",
-        "image": "/build/img/icons/townsfolk/empath.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_10.png"
     },
     {
         "id": "fortuneteller",
