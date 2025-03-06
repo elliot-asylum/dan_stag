@@ -1,8 +1,8 @@
 [ 
  {
-        "id": "washerwoman",
-        "name": "Washerwoman",
-        "edition": "tb",
+        "id": "solaire",
+        "name": "Solaire",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 32,
         "firstNightReminder": "Show the character token of a Townsfolk in play. Point to two players, one of which is that character.",
@@ -14,12 +14,12 @@
         ],
         "setup": false,
         "ability": "You start knowing that 1 of 2 players is a particular Townsfolk.",
-        "image": "/build/img/icons/townsfolk/washerwoman.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_3.png"
     },    
 	{
-        "id": "librarian",
-        "name": "Librarian",
-        "edition": "tb",
+        "id": "patches",
+        "name": "Patches",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 33,
         "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
@@ -31,12 +31,12 @@
         ],
         "setup": false,
         "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)",
-        "image": "/build/img/icons/townsfolk/librarian.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_16.png"
     }, 
 	{
-        "id": "baronty",
-        "name": "Baronty",
-        "edition": "tb",
+        "id": "Kathe",
+        "name": "Kathe",
+        "edition": "",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -45,12 +45,12 @@
         "reminders": [],
         "setup": true,
         "ability": "There are extra Outsiders in play. [+2 Outsiders]",
-        "image": "/build/img/icons/minion/baron.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_24.png"
     },
     {
-        "id": "butler",
-        "name": "Butler",
-        "edition": "tb",
+        "id": "shaun",
+        "name": "Shaun",
+        "edition": "",
         "team": "outsider",
         "firstNight": 38,
         "firstNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
@@ -61,12 +61,12 @@
         ],
         "setup": false,
         "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too.",
-        "image": "/build/img/icons/outsider/butler.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_18.png"
     },
     {
-        "id": "chef",
-        "name": "Chef",
-        "edition": "tb",
+        "id": "marge",
+        "name": "Marge",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 35,
         "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
@@ -75,12 +75,12 @@
         "reminders": [],
         "setup": false,
         "ability": "You start knowing how many pairs of evil players there are.",
-        "image": "/build/img/icons/townsfolk/chef.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_4.png"
     },
 	{
-        "id": "drunk",
-        "name": "Drunk",
-        "edition": "tb",
+        "id": "barney",
+        "name": "Barney",
+        "edition": "",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -101,8 +101,8 @@
             }
         ],
         "setup": true,
-        "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
-        "image": "/build/img/icons/outsider/drunk.webp"
+        "ability": "You do not know you are Drunk. You think you are a Townsfolk character, but you are not.",
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_17.png"
     },
     {
         "id": "shrew",
@@ -119,25 +119,25 @@
         "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_10.png"
     },
     {
-        "id": "fortuneteller",
-        "name": "Fortune Teller",
-        "edition": "tb",
+        "id": "orb",
+        "name": "OrbPonderer",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 37,
-        "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. ",
+        "firstNightReminder": "The Orb Ponderer points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. ",
         "otherNight": 54,
-        "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
+        "otherNightReminder": "The Orb Ponderer points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
         "reminders": [
             "Red herring"
         ],
         "setup": false,
         "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you.",
-        "image": "/build/img/icons/townsfolk/fortuneteller.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_11.png"
     },
     {
-        "id": "imp",
-        "name": "Imp",
-        "edition": "tb",
+        "id": "nurgle",
+        "name": "Nurgle",
+        "edition": "",
         "team": "demon",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -148,12 +148,12 @@
         ],
         "setup": false,
         "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
-        "image": "/build/img/icons/demon/imp.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_22.png"
     },
     {
-        "id": "investigator",
-        "name": "Investigator",
-        "edition": "tb",
+        "id": "witcher",
+        "name": "Witcher",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 34,
         "firstNightReminder": "Show the character token of a Minion in play. Point to two players, one of which is that character.",
@@ -165,12 +165,12 @@
         ],
         "setup": false,
         "ability": "You start knowing that 1 of 2 players is a particular Minion.",
-        "image": "/build/img/icons/townsfolk/investigator.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_15.png"
     },
     {
-        "id": "mayor",
-        "name": "Mayor",
-        "edition": "tb",
+        "id": "hank",
+        "name": "Hank",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -179,12 +179,12 @@
         "reminders": [],
         "setup": false,
         "ability": "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead.",
-        "image": "/build/img/icons/townsfolk/mayor.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_13.png"
     },
     {
-        "id": "monk",
-        "name": "Monk",
-        "edition": "tb",
+        "id": "oscar",
+        "name": "Oscar",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -195,12 +195,12 @@
         ],
         "setup": false,
         "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight.",
-        "image": "/build/img/icons/townsfolk/monk.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_8.png"
     },
     {
-        "id": "poisoner",
-        "name": "Poisoner",
-        "edition": "tb",
+        "id": "gowny",
+        "name": "GownyBoi",
+        "edition": "",
         "team": "minion",
         "firstNight": 17,
         "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
@@ -211,26 +211,26 @@
         ],
         "setup": false,
         "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
-        "image": "/build/img/icons/minion/poisoner.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_5.png"
     },
     {
-        "id": "ravenkeeper",
-        "name": "Ravenkeeper",
-        "edition": "tb",
+        "id": "hanz",
+        "name": "Hanz",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 42,
-        "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player's character token.",
+        "otherNightReminder": "If the hanz died tonight: The hanz points to a player. Show that player's character token.",
         "reminders": [],
         "setup": false,
         "ability": "If you die at night, you are woken to choose a player: you learn their character.",
-        "image": "/build/img/icons/townsfolk/ravenkeeper.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_20.png"
     },
     {
-        "id": "recluse",
-        "name": "Recluse",
-        "edition": "tb",
+        "id": "dave",
+        "name": "Dave",
+        "edition": "",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -239,12 +239,12 @@
         "reminders": [],
         "setup": false,
         "ability": "You might register as evil & as a Minion or Demon, even if dead.",
-        "image": "/build/img/icons/outsider/recluse.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_14.png"
     },
     {
-        "id": "saint",
-        "name": "Saint",
-        "edition": "tb",
+        "id": "alara",
+        "name": "Alara",
+        "edition": "",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -253,12 +253,12 @@
         "reminders": [],
         "setup": false,
         "ability": "If you die by execution, your team loses.",
-        "image": "/build/img/icons/outsider/saint.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_19.png"
     },
     {
-        "id": "scarletwoman",
-        "name": "Scarlet Woman",
-        "edition": "tb",
+        "id": "ben",
+        "name": "Ben",
+        "edition": "",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -269,12 +269,12 @@
         ],
         "setup": false,
         "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don't count.)",
-        "image": "/build/img/icons/minion/scarletwoman.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_6.png"
     },
     {
-        "id": "slayer",
-        "name": "Slayer",
-        "edition": "tb",
+        "id": "bigiron",
+        "name": "Ranger",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -285,12 +285,12 @@
         ],
         "setup": false,
         "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
-        "image": "/build/img/icons/townsfolk/slayer.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_23.png"
     },
     {
-        "id": "soldier",
-        "name": "Soldier",
-        "edition": "tb",
+        "id": "havel",
+        "name": "HAVEL",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -299,12 +299,12 @@
         "reminders": [],
         "setup": false,
         "ability": "You are safe from the Demon.",
-        "image": "/build/img/icons/townsfolk/soldier.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_12.png"
     },
     {
-        "id": "spy",
-        "name": "Spy",
-        "edition": "tb",
+        "id": "agent47",
+        "name": "Agent47",
+        "edition": "",
         "team": "minion",
         "firstNight": 47,
         "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
@@ -313,12 +313,12 @@
         "reminders": [],
         "setup": false,
         "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead.",
-        "image": "/build/img/icons/minion/spy.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_7.png"
     },
     {
-        "id": "undertaker",
-        "name": "Undertaker",
-        "edition": "tb",
+        "id": "arty",
+        "name": "Arty",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -329,12 +329,12 @@
         ],
         "setup": false,
         "ability": "Each night*, you learn which character died by execution today.",
-        "image": "/build/img/icons/townsfolk/undertaker.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_21.png"
     },
     {
-        "id": "virgin",
-        "name": "Virgin",
-        "edition": "tb",
+        "id": "democrat",
+        "name": "democrat",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -345,6 +345,6 @@
         ],
         "setup": false,
         "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately.",
-        "image": "/build/img/icons/townsfolk/virgin.webp"
+        "image": "https://raw.githubusercontent.com/elliot-asylum/dan_stag/refs/heads/main/token_9.png"
     }
 ]
